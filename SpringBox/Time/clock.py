@@ -1,12 +1,9 @@
 import time
 
+
 class Clock:
 	def __init__(self):
 		self._prev_time = time.time()
-
-	@property
-	def acc_time(self) -> float:
-		return self._acc_time
 
 	def tick(self) -> float:
 		"""
