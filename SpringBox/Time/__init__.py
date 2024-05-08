@@ -1,3 +1,3 @@
-from clock import Clock
+from .clock import Clock
 
 __all__ = ["Clock"]
